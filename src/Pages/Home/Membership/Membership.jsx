@@ -5,7 +5,7 @@ import SectionHeader from "../../../Components/SectionHeader/SectionHeader";
 import Container from "../../../Components/Container/Container";
 import FadeInAnimation from "../../../Components/FadeInAnimation/FadeInAnimation";
 import Reavel from "../../../Components/Reveal/Reavel";
-
+import './Membership.css';
 const memberships = [
   {
     title: "Basic Membership",
@@ -71,7 +71,7 @@ const Membership = () => {
       <Container>
         <div className="text-center">
           <Reavel>
-            <p className="dark:text-white text-slate-700 mb-6">
+            <p className="dark:text-white text-slate-700 mb-6" style={{ fontFamily: "'Rubik', sans-serif" ,fontSize:24}}>
               Join ARS Kreedashala and unlock a world of opportunities to enhance your athletic skills. Whether you're a beginner or an elite athlete, we have a membership plan that suits your needs. Choose from our Basic, Pro, or Elite memberships, each offering unique benefits to help you reach your full potential.
             </p>
           </Reavel>
@@ -83,10 +83,10 @@ const Membership = () => {
               <div
                 className={`membership-card bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center transition duration-500 transform hover:scale-105 hover:shadow-xl`}
               >
-                <h3 className="text-2xl font-bold mb-2 dark:text-white text-gray-900">{membership.title}</h3>
-                <p className="font-bold text-gray-800 dark:text-white mb-2">{membership.duration}</p>
+                <h3 className="text-2xl  mb-2 dark:text-white text-gray-900" style={{ fontFamily: "'Rubik', sans-serif"  , fontWeight:500}}>{membership.title}</h3>
+                <p className=" text-gray-800 dark:text-white mb-2" style={{ fontFamily: "'Rubik', sans-serif", fontWeight:500}}>{membership.duration}</p>
 
-                <ul className="text-left list-none space-y-2 mb-6">
+                <ul className="text-left list-none space-y-2 mb-6" style={{ fontFamily: "'Rubik', sans-serif"  }}>
                   {membership.benefits.map((benefit, i) => (
                     <li key={i} className="flex items-start space-x-2 text-gray-600 dark:text-gray-300">
                       <FaCheck className="text-stone-600 mt-1" />

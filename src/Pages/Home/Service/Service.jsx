@@ -3,7 +3,7 @@ import SectionHeader from "../../../Components/SectionHeader/SectionHeader";
 import Container from "../../../Components/Container/Container";
 import FadeInAnimation from "../../../Components/FadeInAnimation/FadeInAnimation";
 import Reavel from "../../../Components/Reveal/Reavel";
-
+import './service.css';
 // Service Page Component
 const Service = () => {
   const [services, setServices] = useState([]);
@@ -22,7 +22,7 @@ const Service = () => {
       <Container>
         <div className="text-center">
           <Reavel>
-            <p className="dark:text-white text-slate-700 mb-6">
+            <p className="dark:text-white text-slate-700 mb-6" style={{ fontFamily: "'Rubik', sans-serif",fontSize:30}}>
               Discover a wide range of services designed to help athletes of all levels reach their full potential. From personalized training programs to Olympic preparation, we offer everything you need to excel.
             </p>
           </Reavel>
@@ -39,10 +39,10 @@ const Service = () => {
                     alt={service.title}
                     className="rounded-md mb-4 w-full h-64 object-contain"
                   />
-                  <h3 className="text-2xl font-bold dark:text-white text-gray-900 mb-4">
+                  <h3 className="text-2xl  dark:text-white text-gray-900 mb-4" style={{ fontFamily: "'Rubik', sans-serif",fontSize:24 , fontWeight:500}}>
                     {service.title}
                   </h3>
-                  <p className="dark:text-gray-300 text-gray-600 mb-4">
+                  <p className="dark:text-gray-300 text-gray-600 mb-4" style={{ fontFamily: "'Rubik', sans-serif",fontSize:16}}>
                     {service.description}
                   </p>
                 </div>

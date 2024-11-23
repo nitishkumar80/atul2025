@@ -6,6 +6,7 @@ import whatsapp from "../../../assets/social/whatsapp.png";
 import linkedin from "../../../assets/social/linkedin.png";
 import youtube from "../../../assets/social/youtube.png";
 import { Link } from "react-router-dom";
+import './footer.css';
 import {
   FaMapMarkerAlt,
   FaPhoneAlt,
@@ -17,7 +18,7 @@ const Footer = () => {
   const year = new Date().getFullYear();
   return (
     <div>
-      <footer className="footer flex flex-wrap py-14 px-5 md:px-10 bg-gray-800 dark:bg-gray-900 text-base-content">
+      <footer className="footer flex flex-wrap py-14 px-5 md:px-10 dark:bg-gray-900 text-base-content">
         <aside className="flex-1 mb-8 md:mb-0">
           <img loading="lazy" className="w-24 md:w-36 lg:w-44" src={logo} alt="Logo" />
           <p className="mt-3 text-center md:text-left text-sm font-semibold text-slate-300 dark:text-white">

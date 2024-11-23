@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 .faq-container {
   padding: 20px;
   max-width: 800px;
@@ -6,8 +8,8 @@
 
 .faq-title {
   text-align: center;
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 20px;
+
   color: black;
   margin-bottom: 20px;
 }
@@ -35,7 +37,7 @@
 }
 
 .question{
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .faq-question:hover {
@@ -44,6 +46,6 @@
 
 .faq-answer {
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 15px;
   color: #555;
 }

@@ -43,7 +43,7 @@
       "id": 3,
       "name": "Gym",
       "description": "Master the fundamentals of fitness with guidance from our expert trainers. Perfect for individuals at any fitness level looking to achieve their goals.",
-      "image1": "https://img.freepik.com/free-photo/cartoon-machines-gym_23-2151149016.jpg",
+      "image1": "https://th.bing.com/th/id/OIG2.nSSUJ1rrNIk6XHQuXSBe?pid=ImgGn",
       "schedule": "Wednesdays and Saturdays from 3 PM to 5 PM",
       "coaches": [
         {
@@ -63,7 +63,7 @@
       "id": 4,
       "name": "Badminton",
       "description": "Enjoy the fast-paced game of badminton. Suitable for players of all ages.",
-      "image1": "https://i.ibb.co/drrztJb/badminton-1428046-1280.jpg",
+      "image1": "https://th.bing.com/th/id/OIG1.mTbJuw6v.fR36RlQ360P?w=1024&h=1024&rs=1&pid=ImgDetMain",
       "schedule": "Mondays and Fridays from 6 PM to 8 PM",
       "coaches": [
         {
@@ -84,7 +84,7 @@
       "id": 5,
       "name": "Yoga",
       "description": "Discover the fundamentals of yoga with our experienced instructors. Perfect for beginners and those looking to deepen their practice.",
-      "image1": "https://thumbs.dreamstime.com/b/woman-yoga-relax-nature-lake-60434685.jpg",
+      "image1": "https://th.bing.com/th/id/OIG2.AGVYm3Z.encFsYpdAK17?w=1024&h=1024&rs=1&pid=ImgDetMain",
       "schedule": "Tuesdays and Thursdays from 5 PM to 6 PM",
       "coaches": [
         {
@@ -105,7 +105,7 @@
       "id": 6,
       "name": "Swimming",
       "description": "Take a dip and improve your swimming skills. Suitable for all ages and experience levels.",
-      "image1": "https://i.ibb.co/VtLSYXz/swimming-821622-1280.jpg",
+      "image1": "https://th.bing.com/th/id/OIG4.mJg_d0ngrstZupn6mJNY?pid=ImgGn",
       "schedule": "Mondays and Thursdays from 6 PM to 8 PM",
       "coaches": [
         {

@@ -39,10 +39,10 @@ const FaqPage = () => {
 
   return (
     <div className="faq-container ">
-      <h1 className="faq-title">Frequently Asked Questions</h1>
+      <h1 className="faq-title" style={{ fontFamily: "'Rubik', sans-serif" ,fontWeight:500}}>Frequently Asked Questions</h1>
       <div className="faq-list">
         {faqData.map((item, index) => (
-          <div key={index} className="faq-item">
+          <div key={index} className="faq-item" style={{ fontFamily: "'Rubik', sans-serif" ,fontSize:15}}>
             <div className="faq-question" onClick={() => toggleAnswer(index)}>
               <h2 className="question">{item.question}</h2>
               {activeIndex === index ? <FaChevronUp /> : <FaChevronDown />}
