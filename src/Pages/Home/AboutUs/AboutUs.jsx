@@ -37,13 +37,13 @@ const AboutUs = () => {
                 <Reavel>
                 <p className="dark:text-white text-slate-700 text-justify" style={{ fontFamily: "'Rubik', sans-serif",fontSize:15 }}>
 
-                  Kreedshala, born from the vision of two passionate sports enthusiasts, is on a mission to weave sports into the core of every child’s education. The organization believes that sports education is essential for holistic development, rather than being just an extracurricular activity. With this philosophy, Kreedshala focuses on creating a structured Sports and Physical Education (P.E.) curriculum that aligns with internationally recognized standards. This well-designed curriculum serves as the foundation for promoting health, fitness, and well-being among students, ensuring they receive a high-quality sports education.
+                  Kreedashala, born from the vision of two passionate sports enthusiasts, is on a mission to weave sports into the core of every child’s education. The organization believes that sports education is essential for holistic development, rather than being just an extracurricular activity. With this philosophy, Kreedashala focuses on creating a structured Sports and Physical Education (P.E.) curriculum that aligns with internationally recognized standards. This well-designed curriculum serves as the foundation for promoting health, fitness, and well-being among students, ensuring they receive a high-quality sports education.
                   </p>
                 </Reavel>
                 <br />
                 <Reavel>
                   <p className="dark:text-white text-slate-700 text-justify"  style={{ fontFamily: "'Rubik', sans-serif" ,fontSize:15}}>
-                  Kreedshala champions the values of inclusivity, accessibility, and excellence. Its educational approach emphasizes not only physical prowess but also the development of discipline, perseverance, and teamwork. By combining theoretical knowledge with practical experience, the organization aims to empower students with both the skills and the mindset needed to succeed in sports and beyond. With a dedication to excellence, Kreedshala is driving the integration of sports education into the lives of young learners, helping to mold well-rounded individuals prepared to thrive in all aspects of life.
+                  Kreedashala champions the values of inclusivity, accessibility, and excellence. Its educational approach emphasizes not only physical prowess but also the development of discipline, perseverance, and teamwork. By combining theoretical knowledge with practical experience, the organization aims to empower students with both the skills and the mindset needed to succeed in sports and beyond. With a dedication to excellence, Kreedashala is driving the integration of sports education into the lives of young learners, helping to mold well-rounded individuals prepared to thrive in all aspects of life.
                   </p>
                 </Reavel>
               </div>
